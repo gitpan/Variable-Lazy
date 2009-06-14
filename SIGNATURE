@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 53d816ee6c1fceca3404dda850c7daf2ac12db33 Build.PL
+SHA1 91845d836e2b2ff33b2322fc22605b9ae8404c63 Changes
+SHA1 12788f92d24d4261f38e06ce1c84da3555f2b133 MANIFEST
+SHA1 3d2c95e1ca5211759f1f7b4b694320bf911fd2dc META.yml
+SHA1 fb08dbecf0052e2b3fde584f492543a3d4421f2a Makefile.PL
+SHA1 c91293f5524881147a08e596aa44885047fe510d README
+SHA1 40a76030ccef980dba92fc339a43dd3dff97eccc lib/Variable/Lazy.pm
+SHA1 b3901485df98339f000d01832ecd335a45b57057 lib/Variable/Lazy/Guts.pm
+SHA1 612542cf83d287d89380ce576add163edd3b7130 lib/Variable/Lazy/Guts.xs
+SHA1 06f79ddfd9fd5a8b6df8f09f9d1aff13bded646c t/00-load.t
+SHA1 cae9971a9ebf8f744901d67dc46435bdb7f736e5 t/10-guts.t
+SHA1 bb67e527b7101d8c7c5d07d943812736a691b18e t/20-basics.t
+SHA1 0b1c5a2d59be6bfa7d60c64cd964fea6a0331705 t/pod-coverage.t
+SHA1 640935336dc1123c0069bcf5432bcaedc2cf22d3 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAko1e94ACgkQTd+EWiaICwpuOQCgrB2Y1H58LdM34UfSxOrOl5Ww
+vSAAn3y0w4/VKv7ak8OJYLGvplxsmgnx
+=rT+m
+-----END PGP SIGNATURE-----
