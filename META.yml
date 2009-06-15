@@ -1,6 +1,6 @@
 ---
 name: Variable-Lazy
-version: 0.01
+version: 0.02
 author:
   - 'Leon Timmermans <leont@cpan.org>'
 abstract: Lazy variables
@@ -19,7 +19,7 @@ build_requires:
 provides:
   Variable::Lazy:
     file: lib/Variable/Lazy.pm
-    version: 0.01
+    version: 0.02
   Variable::Lazy::Guts:
     file: lib/Variable/Lazy/Guts.pm
     version: 0
